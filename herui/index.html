@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Biodata Heru Iryanto</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<script src="js/main.js"></script>
+	<link rel="shortcut icon" href="img/h.png"/>
+
+	<!-- Google Font -->
+	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+	
+	<!-- Font Awesome for Icon Menu-->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<!-- Navigation -->
+	<div class="topnav" id="myTopnav">
+		<a href="#home" class="active">Home</a>
+		<a href="#about">About</a>
+		<a href="#skills">Skills</a>
+		<a href="#languages">Languages</a>
+		<a href="#work">Work</a>
+		<a href="#education">Education</a>
+		<a href="#portfolio">Portfolio</a>
+		<a href="#price">Price</a>
+		<a href="#contact">Contact</a>
+		<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+	    	<i class="fa fa-bars"></i>
+		</a>
+	</div>
+
+	<!-- Home -->
+	<div id="home" class="home">
+		<img src="img/heru.jpg" alt="Heru">
+		<h1>Heru Iryanto</h1>
+		<p><i>Junior Web and Android Developer</i></p>		
+	</div>
+
+
+	<div class="row">
+		<!-- About -->
+		<div class="about">
+		  <h2 id="about">About</h2>
+		  <p>Nama saya Heru Iryanto. Saya adalah seorang manusia biasa yang tertarik untuk belajar dan berbagi. Tertarik pada ilmu web dan android, meskipun tidak jago-jago banget :). Profesi saya sekarang sebagai Coding Teacher dan Freelancer. Saat ini sedang berusaha menjadi suami yang lebih baik untuk keluarga :)</p>
+		</div>
+
+		<!-- Skill -->
+		<div class="skills col-6 col-s-6">
+		  <h2 id="skills">Skills</h2>
+		  <p>HTML</p>
+		  <div class="html">85%</div>
+		  <p>CSS</p>
+		  <div class="css">80%</div>
+		  <p>JS</p>
+		  <div class="js">75%</div>
+		  <p>Android</p>
+		  <div class="android">65%</div>
+		</div>
+
+		<!-- Languages -->
+		<div class="languages col-6 col-s-6">
+		  <h2 id="languages">Languages</h2>
+		  <p>English (Writing)</p>
+		  <div class="en-w">80%</div>
+		  <p>English (Reading & Listening)</p>
+		  <div class="en-r">75%</div>
+		  <p>Indonesia (Writing)</p>
+		  <div class="id-w">95%</div>
+		  <p>Indonesia (Reading & Listening)</p>
+		  <div class="id-r">95%</div>
+		</div>
+
+		<!-- Work -->
+		<div class="work col-6 col-s-6">
+		  <h2 id="work">Work</h2>
+		  <p>Coding Bee Academy (2019 - Present)</p>
+		  <p>Binus Center (2013 - 2019)</p>
+		  <p>Asuransi Tripakarta (2011 - 2013)</p>
+		  <p>BNI Life Insurance (2008 - 2011)</p>
+		</div>
+
+		<!-- Education -->
+		<div class="education col-6 col-s-6">
+		  <h2 id="education">Education</h2>
+		  <p><a href="https://www.w3schools.com/" target="_blank">W3Schools.com (Forever)</a></p>
+		  <p><a href="https://www.dicoding.com/" target="_blank">dicoding.com (2019 - Present)</a></p>
+		  <p>BPPK (2004 - 2007)</p>
+		  <p>SMAN 33 (2001 - 2004)</p>
+		</div>
+
+		<!-- Portfolio -->
+		<div class="portfolio col-12 col-s-12">
+		  <h2 id="portfolio">Portfolio</h2>
+		  <p><a href="https://www.lipatan.com" target="_blank">www.lipatan.com</a></p>
+		  <img src="img/lipatan.png" alt="lipatan">
+		  <p><a href="https://www.hiplii.com" target="_blank">www.hiplii.com</a></p>
+		  <img src="img/hiplii.png" alt="hiplii">
+		  <p>Android App</p>
+		  <img src="img/andro.png" alt="andro">
+		</div>
+
+		<!-- Price -->
+		<div class="price col-12 col-s-12">
+		  <h2 id="price">Price</h2>
+		  <div class="col-12 col-s-12"></div>
+		  <p><b>Basic</b></p>
+		  <p>From our template (Rp. 123)</p>
+		  <div class="col-12 col-s-12"></div>
+		  <p><b>Pro</b></p>
+		  <p>Custome by request (Rp. 1234)</p>
+		</div>
+
+		<!-- Contact -->
+		<div class="contact col-12">
+		  <h2 id="contact" style="text-align:center">Contact</h2>
+		  	<div class="row">
+			    <div class="column">
+			      <img src="img/map.png" style="width:100%">
+			    </div>
+			    <div class="column">
+			      <form action="/action_page.php">
+			        <label for="fname">First Name</label>
+			        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+			        <label for="lname">Last Name</label>
+			        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+			        <label for="subject">Subject</label>
+			        <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+			        <input type="submit" value="Submit">
+			      </form>
+			    </div>
+  			</div>		  
+		</div>
+
+	</div>
+
+	<!-- Scroll Up  -->
+	<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+	<script>
+		//Get the button
+		var mybutton = document.getElementById("myBtn");
+
+		// When the user scrolls down 20px from the top of the document, show the button
+		window.onscroll = function() {scrollFunction()};
+
+		function scrollFunction() {
+		  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+		    mybutton.style.display = "block";
+		  } else {
+		    mybutton.style.display = "none";
+		  }
+		}
+
+		// When the user clicks on the button, scroll to the top of the document
+		function topFunction() {
+		  document.body.scrollTop = 0;
+		  document.documentElement.scrollTop = 0;
+		}
+	</script>
+	
+</body>
+</html>
